@@ -7,6 +7,9 @@
 # https://github.com/P3TERX/Actions-OpenWrt
 # Description: Build OpenWrt using GitHub Actions
 #
+#点☆Star触发开始编译
+  watch:
+    types: started
 
 name: Build OpenWrt
 
